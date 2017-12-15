@@ -8,5 +8,5 @@ Person::Person(std::string fn, std::string ln)
 
 std::string Person::ToString() const
 {
-    return std::string(lastName + ", " + firstName);
+    return std::string(lastName + "; " + firstName);
 }
