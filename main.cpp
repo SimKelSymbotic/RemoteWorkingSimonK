@@ -11,8 +11,8 @@ int main()
     Person p1("Joe", "Bloggs");
     cout << "\t" << p1.ToString() << endl;
     
-    Person p1("Brian", "Bloggs");
-    cout << "\t" << p1.ToString() << endl;
+    Person p2("Brian F.", "Bloggs");
+    cout << "\t" << p2.ToString() << endl;
 
     cout << endl;
 
